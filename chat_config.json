@@ -1,0 +1,15 @@
+{
+    "asr_tokens": "sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20/tokens.txt",
+    "asr_encoder": "sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20/encoder-epoch-99-avg-1.onnx",
+    "asr_decoder": "sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20/decoder-epoch-99-avg-1.onnx",
+    "asr_joiner": "sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20/joiner-epoch-99-avg-1.onnx",
+    "decoding_method": "greedy_search",
+    "provider": "cpu",
+    "hotwords-file": "",
+    "vits-model": "sherpa-onnx-vits-zh-ll/model.onnx",
+    "vits-lexicon": "sherpa-onnx-vits-zh-ll/lexicon.txt",
+    "vits-tokens": "sherpa-onnx-vits-zh-ll/tokens.txt",
+    "vits-dict-dir": "sherpa-onnx-vits-zh-ll/dict",
+    "vits-data-dir": "",
+    "tts-rule-fsts": "sherpa-onnx-vits-zh-ll/phone.fst,sherpa-onnx-vits-zh-ll/date.fst,sherpa-onnx-vits-zh-ll/number.fst"
+}
